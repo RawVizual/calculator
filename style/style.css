@@ -1,0 +1,40 @@
+.box-website-design{
+  display:block;
+  background-color: rgba(255, 255, 255, 0.06);
+  opacity: 1;
+  width: 1030px;
+  height: 629px;
+  position: absolute;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  left: 25px;
+  top: 1434px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 19px 0px;
+  transform-origin: 35.5864% 59.5506% 0px;
+  
+}
+
+
+.total-price{
+text-align:center;
+align:center;
+font-size:20px;
+}
+
+* {
+  font-family: Calibri;
+  font-weight: thin;
+}
+
+p{
+  letter-spacing: 2px;
+}
+
+span{
+  padding:0 0 20px 0;
+}
+
+input{
+  padding: 10px;
+  
+}

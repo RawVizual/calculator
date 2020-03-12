@@ -1,0 +1,48 @@
+<script src="js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+<div ng-app="" ng-init="qty='0';price='0'">
+
+  
+  <div class="total-price" ng-init="pret='1';brosura='0';portofoliu='0';woocomerce='0';nrpagini=1; ">
+  
+  Pret estimat: <b> {{pret=+brosura+portofoliu+woocomerce+(50*(nrpagini-1))}} €</b> 
+  
+  </div>
+  
+
+ <div class="box-website-design">
+<div class="container" style="padding: 50px 50px 50px 50px">
+  <div class="row">
+    <div class="col-sm">
+      <button type="button" ng-focus="brosura=+300; portofoliu=0; woocomerce=0;" class="btn btn-primary">Brosura</button>
+    </div>
+    <div class="col-sm">
+            <button type="button" ng-click="portofoliu=+500; brosura=0; woocomerce=0;" class="btn btn-primary">Portofoliu</button>
+    </div>
+    <div class="col-sm">
+      <button type="button" ng-click="woocomerce=+700;brosura=0; portofoliu=0;" class="btn btn-primary">Woocomerce</button>
+    </div>
+	<div class="col-sm">
+      <button type="button" class="btn btn-primary">Nu știu</button>
+    </div>
+  </div>
+  
+  <br>
+  <p><span>Numar pagini : </span><input type='number' placeholder='' ng-model='nrpagini'></p>
+  
+</div>
+</div>
+
+  
+  
+  
+  
+  
+  
+  
+  
